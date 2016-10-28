@@ -1,1 +1,34 @@
-hi
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header.mobile {
+  border-bottom: 1px solid gray;
+}
+
+p.logo {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+p.logo img {
+  height: 21px;
+}
+
+.abovefold {
+  background: url("src/images/desert.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
