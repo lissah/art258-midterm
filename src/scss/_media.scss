@@ -1,0 +1,147 @@
+@media screen and (min-width: 480px) {
+  .search {
+    input#searchform {
+      height: 60px;
+      font-size: 0.75em;
+    }
+
+    input#searchbutton {
+      height: 60px;
+      font-size: 0.75em;
+      margin-top: 1em;
+    }
+  }
+
+  .section1,
+  .section3,
+  .section5 {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header.desktop {
+    display: block;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+  }
+
+  header a.dt {
+    color: $black;
+    font-size: 0.75em;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    padding: 0 2em;
+    clear: both;
+  }
+
+  header.mobile {
+    display: none;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    p {
+      font-size: 1em;
+    }
+
+    ul {
+      width: 300px;
+      float: left;
+      margin-right: 2em;
+
+      li {
+        font-size: 0.75em;
+        letter-spacing: 1px;
+      }
+    }
+
+    img {
+      padding: 0 5em;
+    }
+
+    margin: auto;
+    clear: left;
+    overflow: auto;
+  }
+
+  .section2,
+  .section4 {
+    img {
+      float: right;
+      clear: right;
+    }
+  }
+
+  .section3 {
+    background: white;
+
+    img {
+      float: left;
+      clear: left;
+    }
+  }
+
+  .seccatlinks1 {
+    position: relative;
+    top: -200px;
+  }
+
+  .seccatlinks2 {
+    position: relative;
+    top: -100px;
+  }
+
+  .seccatlinks3 {
+    position: relative;
+    top: -100px;
+  }
+
+  .footer {
+    .footercat ul a {
+      font-size: 0.75em;
+      text-align: left;
+      display: block;
+      line-height: 1.75em;
+    }
+
+    .footercat li a {
+      display: block;
+      font-weight: 300;
+    }
+
+    ul {
+      font-weight: 400;
+      text-align: left;
+      padding-bottom: 1em;
+    }
+
+    li {
+      display: block;
+    }
+  }
+
+  .col1,
+  .col2,
+  .col3 {
+    float: left;
+    padding-left: 10%;
+  }
+
+  .search {
+    display: none;
+    padding: 1em;
+  }
+}

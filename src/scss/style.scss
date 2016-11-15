@@ -1,1 +1,39 @@
-hi
+//variables//
+//COLOR//
+$black: #000;
+$white: #fff;
+$mobile-headline: 2em;
+$gray: #eee;
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Averia Serif Libre';
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.line {
+  text-align: center;
+  margin: 5em auto;
+  display: block;
+  width: 75%;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(gray), to(#fff));
+}
+
+@import 'header', 'abovefold', 'intro', 'sections', 'search', 'footer', 'media';

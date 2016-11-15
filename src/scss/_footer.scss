@@ -1,0 +1,54 @@
+.footer {
+  p.logo {
+    font-size: 2em;
+    color: $black;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0;
+  }
+
+  p.logo img {
+    margin-top: 0;
+    padding-top: 0;
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  .footercat {
+    text-align: center;
+    line-height: 3em;
+  }
+
+  .footercat a {
+    color: $black;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .smlinks {
+    text-align: center;
+    color: $black;
+    margin-top: 1em;
+
+    a {
+      padding: 0.5em;
+      color: $black;
+    }
+  }
+
+  background-color: $gray;
+  padding: 2em 0 6em;
+}

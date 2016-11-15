@@ -1,0 +1,14 @@
+.abovefold {
+  height: 300px;
+  text-align: center;
+  border-bottom: 1px solid $gray;
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 2em;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+  }
+}
