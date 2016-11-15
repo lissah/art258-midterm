@@ -1,6 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+//variables//
+//COLOR//
+$black: #000;
+$white: #fff;
+$mobile-headline: 2em;
+$gray: #eee;
 
 body {
   font-family: 'Oswald', sans-serif;
@@ -8,27 +11,29 @@ body {
   padding: 0;
 }
 
-header.mobile {
-  border-bottom: 1px solid gray;
-}
-
-p.logo {
-  font-size: 1.5em;
-  font-weight: 300;
+h2 {
+  font-family: 'Averia Serif Libre';
+  font-size: 2em;
   text-transform: uppercase;
-  text-align: center;
+  font-weight: 300;
   margin: 0;
+  padding-bottom: 1em;
 }
 
-p.logo img {
-  height: 21px;
+* {
+  box-sizing: border-box;
 }
 
-.abovefold {
-  background: url("src/images/desert.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+.line {
+  text-align: center;
+  margin: 5em auto;
+  display: block;
+  width: 75%;
+  border: none;
+  color: white;
+  height: 1px;
+  background: black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(gray), to(#fff));
 }
+
+@import 'header', 'abovefold', 'intro', 'sections', 'search', 'footer', 'media';
